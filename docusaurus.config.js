@@ -1,17 +1,15 @@
 module.exports = {
   title: "Docusaurus",
   url: "https://docusaurus.io",
-  baseUrl: "/",
+  baseUrl: "/docs",
   presets: [
     [
       "@docusaurus/preset-classic",
       {
         docs: {
-          path: "docusaurus/docs",
+          routeBasePath: '/',
+          path: "docs",
         },
-        pages: {
-          path: "docusaurus/pages",
-        }
       },
     ],
   ],

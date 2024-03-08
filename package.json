@@ -7,8 +7,9 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "docusaurus-build": "docusaurus build --out-dir ./docusaurus-build",
-    "docusaurus-serve": "docusaurus serve --dir ./docusaurus-build"
+    "docusaurus-build": "docusaurus build --out-dir ./public/docs",
+    "docusaurus-serve": "docusaurus serve --dir ./public/docs",
+    "docusaurus-start": "docusaurus start"
   },
   "dependencies": {
     "@docusaurus/core": "^3.1.1",
